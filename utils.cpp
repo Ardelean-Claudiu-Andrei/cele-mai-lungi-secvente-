@@ -176,10 +176,8 @@ void longest_sequence_with_dif_signs(int n, const int x[])
     int crt_start = 0;
     int crt_end = 0;
     for (int i = 0; i < n; i++) {
-        if (((x[i] - x[i+1] < 0) && (x[i+1] - x[i + 2]>0))||((x[i] - x[i+1] > 0) && (x[i+1] - x[i + 2]<0))) {
+        if ((((x[i] - x[i+1]) < 0) && ((x[i+1] - x[i + 2])>0))||(((x[i] - x[i+1]) > 0) && ((x[i+1] - x[i + 2])<0))) {
             crt_end = i-1;
-            //cout<<crt_end;
-            //cout<<endl;
             if (l_end - l_start < crt_end - crt_start) {
                 l_end = crt_end;
                 l_start = crt_start;
@@ -191,7 +189,6 @@ void longest_sequence_with_dif_signs(int n, const int x[])
 
         }
     }
-    //printvector(v, l_start, l_end + 1);
     for (int i = l_start; i < l_end; i++)
     {
         if (i<l_end-1) cout<<x[i]<<", ";

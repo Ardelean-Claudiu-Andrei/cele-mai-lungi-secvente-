@@ -12,8 +12,8 @@ int main() {
     std::cout<<std::endl;
     std::cout<<"Suma elementelor vectorului este: "<<sum_of_list(l, a);
     std::cout<<std::endl;
-    std::cout<<"a= ";std::cin>>f;
-    std::cout<<"b= ";std::cin>>g;
+    //std::cout<<"a= ";std::cin>>f;
+    //std::cout<<"b= ";std::cin>>g;
     //1,2,3,4,5,6,7,8,2,10,6,7,8
     //din_interval(l, a, f, g);
     //din_1_interval(l,a,f,g);
