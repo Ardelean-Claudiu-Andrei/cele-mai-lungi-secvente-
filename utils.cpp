@@ -83,7 +83,10 @@ int longest_sequence_with_dif_signs(int n, const int x[], int &startul)
         }
     }
     startul = l_start;
-    return l_end+2;
+    //trebuie sa adaugam + 2 la lungimea secventei deoarece se verifica pana la pozitia i+2 si daca e valid si se introduce x[i] atunci si pozitiile i+1 si i+2 sunt bune
+    //l_end = l_end + 2;
+    //mai bine la afisare
+    return l_end;
 }
 
 void afisare_secventelor(const int x[], int start, int sfarsit)

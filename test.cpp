@@ -26,7 +26,7 @@ void test_longest_sequence_with_dif_signs()
 {
     int array[]={0,1,3,2,10,5,5};
     int start_poz = 0;
-    assert(longest_sequence_with_dif_signs(7,array, start_poz) == 6);
+    assert(longest_sequence_with_dif_signs(7,array, start_poz) == 4);
     assert(start_poz == 1);
 }
 
@@ -40,7 +40,7 @@ void test_no_seq()
 
     int array2[] = {1,2,3,4,5,6,7};
     int start_poz2 = 0;
-    assert(longest_sequence_with_dif_signs(7, array2, start_poz2) == 2);
+    assert(longest_sequence_with_dif_signs(7, array2, start_poz2) == 0);
     assert(start_poz2 == 0);
 
 }
