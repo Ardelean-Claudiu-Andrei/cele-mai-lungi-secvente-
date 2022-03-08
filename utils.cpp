@@ -94,4 +94,5 @@ void afisare_secventelor(const int x[], int start, int sfarsit)
         if (i<sfarsit-1) cout<<x[i]<<", ";
         else cout<<x[i]<<". ";
     }
+    cout<<endl;
 }
