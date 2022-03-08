@@ -9,9 +9,5 @@
 
 void test_sum_of_list();
 void test_longest_sequence_from_interval();
-void test_seq_is_at_start();
-void test_seq_is_at_end();
-void test_seq_is_at_middle();
-void test_multiple_seq();
 void test_no_seq();
 void test_all();

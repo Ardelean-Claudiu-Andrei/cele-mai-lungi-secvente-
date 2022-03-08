@@ -2,7 +2,6 @@
 // Created by adela on 3/2/2022.
 //
 #include <iostream>
-#include "tuple"
 using namespace std;
 void readlist(int &n , int x[])
 {
