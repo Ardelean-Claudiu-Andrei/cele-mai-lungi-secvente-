@@ -10,9 +10,6 @@
 void readlist(int &n, int x[]);
 void printlist(int n, int x[]);
 int sum_of_list(int n, const int x[]);
-void din_interval(int n, const int x[], int a, int b);
-void din_1_interval(int n, const int x[], int a, int b);
-void semne(int n, const int x[]);
-void cautare_de_secventa();
-void longest_sequence_from_interval(int n, const int x[], int a, int b);
-void longest_sequence_with_dif_signs(int n, const int x[]);
+int longest_sequence_from_interval(int n, const int x[], int a, int b, int &start);
+int longest_sequence_with_dif_signs(int n, const int x[], int &startul);
+void afisare_secventelor(const int x[], int start, int sfarsit);
